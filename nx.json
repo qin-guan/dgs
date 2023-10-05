@@ -5,7 +5,8 @@
       "runner": "nx-cloud",
       "options": {
         "cacheableOperations": ["build", "lint", "test", "e2e"],
-        "accessToken": "YTUyZTllMjItMzcyMC00N2M4LWFhNDYtYTQ1ZGU4YjYxOTVifHJlYWQtd3JpdGU="
+        "accessToken": "ODRhZjZiMjgtZjliOC00YTY0LWFiOTEtYjM1ZGMzZDg5MWVmfHJlYWQ=",
+        "__COMMENT__": "This access token is read only for security"
       }
     }
   },

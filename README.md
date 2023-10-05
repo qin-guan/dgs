@@ -9,6 +9,14 @@ npm i -g nx # or
 pnpm i -g nx
 ```
 
+The NX Cloud access token used by default is `read-only`.
+
+To configure a `read-write` token, create `nx-cloud.env` with the following content:
+
+```env
+NX_CLOUD_ACCESS_TOKEN=your_token
+```
+
 ## Generate code
 
 If you happen to use Nx plugins, you can leverage code generators that might come with it.
