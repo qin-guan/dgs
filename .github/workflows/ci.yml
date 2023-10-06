@@ -38,3 +38,6 @@ jobs:
 
       - name: Lint
         run: pnpm exec nx run-many -t lint
+
+      - name: Docker
+        run: pnpm exec nx run-many -t docker-build
