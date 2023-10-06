@@ -1,7 +1,7 @@
-import { contracts } from './contracts';
+import { c } from './contracts';
 
 describe('contracts', () => {
-  it('should work', () => {
-    expect(contracts()).toEqual('contracts');
+  it('c should be exported', () => {
+    expect(c).toBeTruthy();
   });
 });

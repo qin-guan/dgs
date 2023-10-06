@@ -1,6 +1,13 @@
+'use client'
+
+import { client } from './client';
 import styles from './page.module.scss';
 
 export default async function Index() {
+  const query = client.getHealthz.useQuery(
+    ['healthz']
+  )
+
   /*
    * Replace the elements below with your own.
    *
@@ -16,6 +23,8 @@ export default async function Index() {
               Welcome frontend 👋
             </h1>
           </div>
+
+          {JSON.stringify(query)}
 
           <div id="hero" className="rounded">
             <div className="text-container">
